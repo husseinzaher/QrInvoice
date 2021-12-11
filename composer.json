@@ -1,0 +1,25 @@
+{
+    "name": "hz/qr-invoice",
+    "description": "Helper To make QR E-Invoice",
+    "require": {
+        "php": ">=7.4",
+        "ext-mbstring": "*",
+        "chillerlan/php-qrcode": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hz\\QrInvoice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hussein Zaher",
+            "email": "husseinzaher@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
